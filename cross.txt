@@ -1,0 +1,20 @@
+[binaries]
+c = '/home/andreworals/dev/superduperbird-buildroot/toolchain/aarch64-linux-gnu/bin/aarch64-linux-gnu-gcc'
+cpp = '/home/andreworals/dev/superduperbird-buildroot/toolchain/aarch64-linux-gnu/bin/aarch64-linux-gnu-g++'
+ar = '/home/andreworals/dev/superduperbird-buildroot/toolchain/aarch64-linux-gnu/bin/aarch64-linux-gnu-ar'
+strip = '/home/andreworals/dev/superduperbird-buildroot/toolchain/aarch64-linux-gnu/bin/aarch64-linux-gnu-strip'
+pkg-config = '/home/andreworals/dev/drm_doc/pkg-config-aarch64-linux-gnu'
+
+[host_machine]
+system = 'linux'
+cpu_family = 'arm'
+cpu = 'armv7'
+endian = 'little'
+
+[built-in options]
+prefix = '/home/andreworals/dev/drm_doc/output'
+
+[properties]
+sys_root = '/home/andreworals/dev/buildroot-2024.05/output/staging'
+pkg_config_libdir = '/home/andreworals/dev/buildroot-2024.05/output/staging/usr/lib/pkgconfig'
+
